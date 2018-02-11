@@ -34,10 +34,10 @@
   <a href="https://atom.io" style="color:#D2691E">-->ATOM IDE<--</a>
   <img src="https://www.pubnub.com/wp-content/uploads/2015/01/B62xj9FCUAA3YoC.png" alt="Atom_logo" style="width:40px;height:40px">
 </p>
-<input type="number" id="nmb">
+<input type="text" id="txt">
 <button type="submit" id="btn">CLICK ME</button>
 <script type="text/javascript">
-function someFunc(){alert("You entered " + document.getElementById("nmb").value);}
+function someFunc(){alert("You entered '" + document.getElementById("txt").value + "'");}
 document.getElementById("btn").onclick = someFunc;
 </script>
 </body>
